@@ -1,0 +1,90 @@
+body{
+    background: url(https://image.shutterstock.com/image-photo/house-building-city-construction-concept-600w-189023420.jpg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Anaheim';
+  }
+  
+  section{
+    background-color: teal;
+    width: 70%;
+    height: 1200px;
+    margin: 10px 200px;
+    justify-content: center;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 30px;
+   
+  }
+  .date{
+    display: flex;
+    flex-direction: column;
+  }
+  .field{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #text1{
+    width: 450px;
+    height: 30px;
+    font-size: 16px;
+    color: black;
+    border-radius: 6px;
+    border: solid 2px teal;
+  }
+  #input{
+    width: 20px;
+    height: 35px;
+    line-height: 30px;
+  }
+  select{
+    width: 460px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: lightgray;
+  }
+  #comment{
+    width: 450px;
+    height: 150px; 
+    font-size: 15px;
+    align-items: flex-start;
+    justify-content: initial;
+  }
+  .comment{
+    align-items: flex-start;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .submit{
+    font-size: 16px;
+    width: 460px;
+    height:30px;
+    border-radius: 10px;
+    margin: 40px 2px 5px 0px; 
+  }
+  .take-me-back{
+    font-size: 16px;
+    width: 460px;
+    height:30px;
+    border-radius: 10px;
+    margin: 10px 2px 10px 0px; 
+  }
+  button:hover{
+    color:white;
+    background-color:teal;
+    font-size:20px;
+    box-shadow: 2px 5px 5px blue;
+    
+  }

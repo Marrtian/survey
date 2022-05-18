@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="src/index.js"></script>
+    <title>Survey Form</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <p1><em>Thank you for taking the time to contact us</em></p1>
+    <section>
+<!--       <div class="form"> -->
+      <form class="form" action="">
+      <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name" id="text1">
+      <label for="email">Email</label>
+        <input type="text" placeholder="Enter your email" id="text1">
+      <label for="age">Age (optional)</label>
+        <input type="number" placeholder="Enter your age" id="text1">
+        <div class="date">
+        <label for="input1">Enter the date:</label>
+<input type="date" id="input1" name="input1">
+        </div>
+        <label for="role">What is your current role?</label>
+        <select name="current role">
+          <option value"" disabled selected hidden>Select current role</option>
+          <optgroup label="select current role">
+          <option value"full-time">Full-Time</option>
+          <option value"part-time">Part-Time</option>
+          <option value"Student">Student</option>
+          <option value"Retired">Retired</option>
+          <option value"Prefer-not-to-say">Prefer Not To Say</option>
+          </optgroup>
+        </select>
+        
+        <fieldset  class="field">
+        <label for=""> Would you recommend us?</label>
+        <label for="definately"><input type="radio" name="reccomend" id="definately" value="definately">Definately</label>
+         <label for="maybe"><input type="radio" name="reccomend" id="maybe" value="maybe">Maybe</label>
+        <label for="Not-sure"><input type="radio" name="reccomend" id="Not-sure" value="Not-sure">Not-sure</label>
+        <label for="Prefer-not-to-say"><input type="radio" name="reccomend" id="Prefer-not-to-say" value="Prefer-not-to-say">Prefer not to say</label>
+        </fieldset>   
+        <legend>What type of property are you interested in?</legend>
+        <select name="property-type">
+          <option value="select-property-type" label="Select Property Type" selected disabled></option>
+          <option value="apartment" label="Apartment"></option>
+          <option value="house" label="House"></option>
+          <option value="Student Accommodation" label="Accommodation"> </option>
+          <option value="land" label="Land"></option>
+        </select>
+        
+        <label for"">What other interest do you have? (Check all that apply)</label>
+        <label for="townhouse"><input type="checkbox" id="townhouse" name="interests" value="townhouse">Townhouse</label>
+         <label for="estates"><input type="checkbox" id="estates" name="interests" value="estates">Estates</label>
+        <label for="commercial"><input type="checkbox" id="commercial" name="interests" value="commercial">Commercial</label>
+        <label for="lodges"><input type="checkbox" id="lodges" name="interests" value="lodges">Lodges</label>
+        <label for="hotel"><input type="checkbox" id="hotel" name="interests" value="hotel">Hotel</label>
+        <label for="guesthouse"><input type="checkbox" id="guesthouse" name="interests" value="guesthouse">Guesthouse</label>
+        <label for="commune"><input type="checkbox" id="commune" name="interests" value="commune">Commune</label>
+        <label for="not-property-related"><input type="checkbox" id="not-property-related" name="interests" value="not-property-related">Not Property Related</label>
+        <div class="comment">
+        <label for="comment-suggestions">Any comments or suggestions?</label>
+        <textarea id="comment" placeholder="Enter your comment here...." name="suggestion"></textarea>
+        </div>
+        <button class="submit">Submit</button>
+        <button class="take-me-back">Take Me Back</botton>
+        
+        </form>
+      </section>
+  </body>
+</html>
